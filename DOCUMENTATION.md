@@ -17,6 +17,7 @@ user_id (integer, required): Userr's id
 **HTTP Method:** POST
 **Path:** /api
 **Request Body:** PersonCreate JSON object (Required)
+This can only be done on postman not on your browser
 **Responses:**
 **201:** Successful Response (Content: Person JSON object)
 **404:**  Validation Error (Content: HTTPValidationError JSON object)
